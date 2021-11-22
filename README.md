@@ -30,13 +30,13 @@ function getData(token_id, url) {
 ```
 
 Step 4:
-Your spreadsheet now has the function: **getData**.
-Call the function in the spread with the required inputs:
-token_url: the API key as string. To get your API key, go to your KoBo account, select **Account Settings** -> copy **API Token**.
-                                  DO NOT SHARE this API key to anyone. Use the string: "Token copied_api_key" as the first input.
-                                  For example "Token 1234567890ABCDE".
-url: The API v1 URL to your data. To obtain, log in to your KoBo account and go to "https://kc.kobotoolbox.org/api/v1/data" in another tab.
-                                  Find the url of your chosen sheet. Attach a **".csv** at the end of the url. For example "https://kc.kobotoolbox.org/api/v1/data/123456.csv"
+Your spreadsheet now has the function: **getData**.\
+Call the function in the spread with the required inputs:\
+**token_url:** the API key as string. To get your API key, go to your KoBo account, select **Account Settings** -> copy **API Token**. \
+                                    **DO NOT SHARE** this API key to anyone. Use the string: "Token copied_api_key" as the first input. \
+                                      For example "Token 1234567890ABCDE". \
+**url:** The API v1 URL to your data. To obtain, log in to your KoBo account and go to "https://kc.kobotoolbox.org/api/v1/data" in another tab. \
+                                      Find the url of your chosen sheet. Attach a **".csv** at the end of the url. For example "https://kc.kobotoolbox.org/api/v1/data/123456.csv"
                                   
                                   
                                   
