@@ -42,7 +42,7 @@ Call the function in the spread with the required inputs:\
 **url:** The API v1 URL to your data. To obtain, log in to your KoBo account and go to "https://kc.kobotoolbox.org/api/v1/data" in another tab. \
                                       Find the url of your chosen sheet. Attach a **".csv** at the end of the url. For example "https://kc.kobotoolbox.org/api/v1/data/123456.csv"
 
-![The list of sheets should look like this.](https://github.com/markbenedictmortera/KoBoToSheet/blob/main/api_site.JPG)
+![The list of sheets should look like this.](https://github.com/markbenedictmortera/KoBoToSheet/blob/main/csv_url.png)
                                      
                                       
                                   
