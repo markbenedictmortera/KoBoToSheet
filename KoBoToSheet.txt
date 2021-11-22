@@ -1,0 +1,13 @@
+function getData(token_id, url) {
+  var scriptProperties = PropertiesService.getScriptProperties();
+
+  var params = {
+    "method" : "Get",
+    "headers": {"Authorization" : token_id}
+   };
+  
+  const response = UrlFetchApp.fetch(url, headers = params);
+  const csv = Utilities.parseCsv(response);
+  \\Logger.log(csv);
+  return(csv);
+}
