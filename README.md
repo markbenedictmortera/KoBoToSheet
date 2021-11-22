@@ -12,7 +12,7 @@ You will be forwarded to another tab containing the attached GAS.
 ![Open GAS](https://github.com/markbenedictmortera/KoBoToSheet/blob/main/extension.JPG)
 
 Step 3:
-Paste the code below into your google script. Save.
+Paste the code below into your google script. **Save.**
 
 ```{js}
 function getData(token_id, url) {
@@ -41,6 +41,10 @@ Call the function in the spread with the required inputs:\
                                       For example "Token 1234567890ABCDE". \
 **url:** The API v1 URL to your data. To obtain, log in to your KoBo account and go to "https://kc.kobotoolbox.org/api/v1/data" in another tab. \
                                       Find the url of your chosen sheet. Attach a **".csv** at the end of the url. For example "https://kc.kobotoolbox.org/api/v1/data/123456.csv"
+
+![The list of sheets should look like this.](https://github.com/markbenedictmortera/KoBoToSheet/blob/main/api_site.JPG)
+                                     
+                                      
                                   
                                   
                                   
