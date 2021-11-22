@@ -9,7 +9,7 @@ I strongly suggest creating a new spreadsheet first.
 Step 2:
 Open Google Apps Script by clicking **Extensions** -> **Apps Script**.
 You will be forwarded to another tab containing the attached GAS.
-![Open GAS](extension.jpg)
+![Open GAS](https://github.com/markbenedictmortera/KoBoToSheet/blob/main/extension.JPG)
 
 Step 3:
 Paste the code below into your google script. Save.
@@ -29,6 +29,9 @@ function getData(token_id, url) {
   return(csv);
 }
 ```
+![Save](https://github.com/markbenedictmortera/KoBoToSheet/blob/main/save.JPG)
+
+If google asks permission, accept.
 
 Step 4:
 Your spreadsheet now has the function: **getData**.\
