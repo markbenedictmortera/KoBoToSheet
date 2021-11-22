@@ -9,6 +9,7 @@ I strongly suggest creating a new spreadsheet first.
 Step 2:
 Open Google Apps Script by clicking **Extensions** -> **Apps Script**.
 You will be forwarded to another tab containing the attached GAS.
+![](extension.jpg)
 
 Step 3:
 Paste the code below into your google script. Save.
